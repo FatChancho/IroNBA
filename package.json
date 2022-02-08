@@ -1,0 +1,23 @@
+{
+    "name": "express-dynamic-views",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start":"node ./bin/www",
+      "dev": "nodemon app.js",
+      "start:teach": "PORT=3001 nodemon ./bin/www",
+      "start:debug": "DEBUG=* nodemon ./bin/www"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^16.0",
+      "express": "^4.17",
+      "hbs": "^4.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0"
+    }
+  }
+  
